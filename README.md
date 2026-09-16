@@ -1,9 +1,13 @@
-# Website Portfolio v1.2.3
+# Personal Portfolio
 
-Welcome to my personal website portfolio!  
-This is part of my ongoing journey as an aspiring **Web Penetration Tester** where I'm diving deeper into front-end development to better understand how websites are built.
+My personal portfolio website where I keep a collection of my projects, skills, and the work I've built while learning and growing in IT.
 
-### Live site: [reymondjoaquin.netlify.app](https://reymondjoaquin.netlify.app/)
+I originally started building websites just to understand how things work under the hood. Over time, frontend development became one of the skills I picked up along the way, and this portfolio is where I put some of that work together.
+
+### Live Site
+
+[reymondjoaquin.netlify.app](https://reymondjoaquin.netlify.app/)
+
 ---
 
 ## Screenshot
@@ -14,26 +18,28 @@ This is part of my ongoing journey as an aspiring **Web Penetration Tester** whe
 
 ## Previous Versions
 
-Looking for older versions of my Portfolio before v0.2.0 below??
+Want to see how the portfolio looked before it had its own dedicated repository?
 
-[Click here to browse the original versions (v0.0.1 to v0.1.0) inside the Portfolio Repo](https://github.com/R3ym0nd0/Front-end_Development/tree/main/Portfolio)
+[Browse the original versions (v0.0.1 to v0.1.0)](https://github.com/R3ym0nd0/Front-end_Development/tree/main/Portfolio)
 
-> These were stored in a Portfolio repository before this tool got its own dedicated repo.
+> These versions were originally kept inside my Front-end Development repository.
 
 ---
 
 ## Built With
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
 ---
 
-## Why I'm Building This
+## About This Portfolio
 
-Although I’m not pursuing web development as a career, having frontend skill helps me in my main goal to become a professional Web Penetration Tester. By understanding how websites are structured, I can better find and exploit vulnerabilities during tests.
+This isn't meant to be a perfect showcase of everything I know. It's a work in progress that changes as I learn, build new projects, and improve my skills.
+
+The portfolio currently focuses on my projects and technical interests, with more being added as I continue working toward a career in IT and cybersecurity.
 
 ---
 
-Thanks for checking it out!
+Thanks for checking out my portfolio.
