@@ -21,16 +21,20 @@
         <nav>   
             <!-- Name & Menu-icon Section -->
             <div id="header-bar">
-                <h2><a class="nav-section" href="#hero" id="name">REYMOND JOAQUIN</a></h2>
-                <button id="hamburger-icon">&#9776;</button>
+                <h2><a class="nav-section" href="#about" id="name">REYMOND JOAQUIN</a></h2>
+                <button id="hamburger-icon" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
             <hr class="line">
             <div id="nav-bar">
                 <ul>
                     <li><a class="nav-section" href="#about">ABOUT</a></li>
+                    <li><a class="nav-section" href="#skills">SKILLS</a></li>
                     <li><a class="nav-section" href="#journey">JOURNEY</a></li>
                     <li><a class="nav-section" href="#experience">EXPERIENCE</a></li>
-                    <li><a class="nav-section" href="#skills">SKILLS</a></li>
                     <li><a class="nav-section" href="#projects">PROJECTS</a></li>
                     <li><a class="nav-section" href="#reymux">REYMUX</a></li>
                     <!-- <li>
@@ -49,34 +53,6 @@
 
     <!-- Main Content -->
     <main>   
-        <section id="hero">
-            <h1>Aspiring IT Professional</h1>
-    
-            <div id="hero-desc">
-                <p>Discover | Learn | Apply | Repeat</p>    
-            </div>   
-
-            <a href="#about" id="start-button">Scroll to Know Me &darr;</a>
-
-            <div id="profile-links">   
-                <a href="https://www.linkedin.com/in/reymond-joaquin-3b5954308" target="_blank">
-                    <i class="fab fa-linkedin icon-links" style="color: rgb(18, 99, 131)"> <span class="text-link">Reymond Joaquin</span></i>
-                </a>
-
-                <a href="https://mail.google.com/mail/u/0/#search/in%3Asent+raymondjoaquin50%40gmail.com" target="_blank">
-                    <i class="fas fa-envelope icon-links" style="color: rgb(18, 99, 131)"> <span class="text-link">raymondjoaquin50@gmail.com</span></i>
-                </a>
-
-                <a href="https://www.youtube.com/@reycademy" target="_blank">
-                    <i class="fab fa-youtube icon-links" style="color: rgb(18, 99, 131)"> <span class="text-link">Reycademy</span></i>
-                </a>    
-
-                <a href="https://github.com/Mondeev" target="_blank">
-                    <i class="fab fa-github icon-links" style="color: rgb(18, 99, 131)"> <span class="text-link">R3ym0nd0</span></i>
-                </a>
-            </div>
-        </section>
-
         <section id="about">         
             <div id="introduction">
                 <h2 class="text">HI, I AM REYMOND!</h2>
@@ -88,13 +64,116 @@
                 <p>I like figuring out how things work, fixing what doesn’t, and learning along the way. Right now, I’m building my foundation in IT through troubleshooting, networking, and hands-on projects, while working toward cybersecurity.</p>
             </div> 
 
-            <div id="hero-contact-search">
+            <div id="about-actions">
                
-                <a href="https://www.linkedin.com/in/reymond-joaquin-3b5954308" target="_blank" id="contact-btn">Let's Connect</a> 
-                <a id="resume-btn" href="Reymond_P_Joaquin_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+                <a href="mailto:raymondjoaquin50@gmail.com" target="_blank" id="contact-btn"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+                <a id="resume-btn" href="Reymond_P_Joaquin_Resume.pdf" target="_blank" rel="noopener"><i class="fas fa-download"></i> Resume</a>
                 
             </div>
+
+            <div id="about-profile-links">   
+                <a href="https://www.linkedin.com/in/reymond-joaquin-3b5954308" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin icon-links"> <span class="text-link">Reymond Joaquin</span></i>
+                </a>
+
+                <a href="https://web.facebook.com/reymondjoaquin26" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-facebook icon-links"> <span class="text-link">Reymond Joaquin</span></i>
+                </a>
+
+                <a href="https://www.youtube.com/@reycademy" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="fab fa-youtube icon-links"> <span class="text-link">Reycademy</span></i>
+                </a>    
+
+                <a href="https://github.com/Mondeev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github icon-links"> <span class="text-link">R3ym0nd0</span></i>
+                </a>
+            </div>
         </section> 
+
+        <section id="skills">
+            <h2 class="section-title">MY SKILLS</h2>
+
+                <div class="skills-container">
+                    
+                    <div class="skill-category">    
+                        <h3>Networking Basics</h3>
+                        <ul>
+                            <li>
+                                IP Addressing
+                            </li>
+
+                            <li>
+                                TCP/IP
+                            </li>
+
+                            <li>
+                                Subnetting
+                            </li>
+                            <li>
+                                Network Devices
+                            </li>
+                            <li>
+                                Protocols & Ports
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Scripting/Programming</h3>
+                        <ul>
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                Bash Scripting
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <ul>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                            <li>
+                                JavaScript
+                            </li>
+                            <li>
+                                Express
+                            </li>
+                            <li>
+                                PostgreSQL
+                            </li>  
+                            <li>
+                                HTTP/HTTPS
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>OS & Tech Tools</h3>
+                        <ul>
+                            <li>
+                                Kali Linux
+                            </li>
+                            <li>
+                                VSCode
+                            </li>
+                            <li>
+                                Git
+                            </li>
+                            <li>
+                                GitHub
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+        </section>
 
         <section id="journey">        
             <h2 class="section-title">MY JOURNEY</h2>
@@ -179,7 +258,7 @@
         </section> 
 
         <section id="experience">
-            <h2 class="section-title">EXPERIENCE</h2>
+            <h2 class="section-title">MY EXPERIENCE</h2>
 
             <div class="experience-grid">
 
@@ -202,9 +281,13 @@
 
                     <span class="experience-date">2023 – 2024</span>
                     <h3>IT Support OJT / Technical Support Trainee</h3>
-                    <p>
-                        Provided hands-on technical support during OJT at a school computer laboratory, assisting students with computer-related issues and helping maintain the lab. Performed PC reformatting, software installation, system configuration, hardware troubleshooting, and basic network setup and troubleshooting.
-                    </p>
+                    <ul class="experience-bullets">
+                        <li>Provided hands-on technical support at a school computer laboratory</li>
+                        <li>Assisted students with computer-related issues and helped maintain the lab</li>
+                        <li>Performed PC reformatting and software installation</li>
+                        <li>Handled system configuration and hardware troubleshooting</li>
+                        <li>Managed basic network setup and troubleshooting</li>
+                    </ul>
                 </article>
 
                 <article class="experience-card">
@@ -225,11 +308,13 @@
                     </div>
 
                     <span class="experience-date">Sep 16 - Dec 14, 2025</span>
-                    <h3>Paid Java Program Commissions</h3>
-                    <p>
-                        Built multiple custom Java programs for classmates as paid academic commissions, including GUI-based utilities, age checkers,
-                        menu-driven activities, payslip logic, and small handson tasks that needed quick, working solutions.
-                    </p>
+                    <h3>Freelance Java Programmer</h3>
+                    <ul class="experience-bullets">
+                        <li>Created custom Java programs on a freelance basis for academic clients</li>
+                        <li>Built GUI-based utilities and age verification tools</li>
+                        <li>Developed menu-driven activities and payslip calculation logic</li>
+                        <li>Delivered small handson tasks that needed quick, working solutions</li>
+                    </ul>
 
                     <div class="project-links experience-links">
                         <a href="https://github.com/R3ym0nd0/Java-Resources/tree/main/Handson" target="_blank" rel="noopener noreferrer">Source</a>
@@ -254,11 +339,13 @@
                     </div>
 
                     <span class="experience-date">April 9 - May 15, 2026</span>
-                    <h3>GayaGuard</h3>
-                    <p>
-                        Built GayaGuard, a web-based request screening and monitoring system commissioned by a classmate for Barangay Gaya Gaya, helping
-                        residents submit requests online while allowing staff to review, track, and manage them more efficiently.
-                    </p>
+                    <h3>Freelance Web Developer</h3>
+                    <ul class="experience-bullets">
+                        <li>Developed a web-based request screening and monitoring system for a community client</li>
+                        <li>Enabled residents to submit requests online through a custom web portal</li>
+                        <li>Built a staff dashboard for reviewing, tracking, and managing submitted requests</li>
+                        <li>Improved request handling efficiency for the client organization</li>
+                    </ul>
 
                     <div class="project-links experience-links">
                         <a href="https://github.com/R3ym0nd0/GayaGuard" target="_blank" rel="noopener noreferrer">Source</a>
@@ -268,152 +355,36 @@
             </div>
         </section>
 
-        <section id="skills">
-            <h2 class="section-title">MY SKILLS</h2>
-
-                <div class="skills-container">
-                    
-                    <div class="skill-category">    
-                        <h3>Networking Basics</h3>
-                        <ul>
-                            <li>
-                                IP Addressing
-                            </li>
-
-                            <li>
-                                TCP/IP
-                            </li>
-
-                            <li>
-                                Subnetting
-                            </li>
-                            <li>
-                                Network Devices
-                            </li>
-                            <li>
-                                Protocols & Ports
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Scripting/Programming</h3>
-                        <ul>
-                            <li>
-                                Python
-                            </li>
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                Bash Scripting
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Web Technologies</h3>
-                        <ul>
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                Express
-                            </li>
-                            <li>
-                                PostgreSQL
-                            </li>  
-                            <li>
-                                HTTP/HTTPS
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>OS & Tech Tools</h3>
-                        <ul>
-                            <li>
-                                Kali Linux
-                            </li>
-                            <li>
-                                VSCode
-                            </li>
-                            <li>
-                                Git
-                            </li>
-                            <li>
-                                GitHub
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-        </section>
-
         <section id="projects">
             <h2 class="section-title">MY PROJECTS</h2>
 
-            <h3 class="project-type">Custom Pentesting Tools</h3>
+            <h3 class="project-type">Automated Tools</h3>
             <div class="skills-section">
 
                 <div class="project-card">
-                    <img src="images/IPnetSolver.PNG" alt="IPnetSolver Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@ipnetsolver:~$</span>
                     </div>
-
+                    <img src="images/IPnetSolver.PNG" alt="IPnetSolver Screenshot">
                     <h3>IPnetSolver v2.0.0</h3>
-
                     <p>A tool written in Python for automating subnetting, including FLSM, VLSM, supernetting, and converting whole numbers/IP addresses to binary.</p>
                     <p class="tech">Python | Subnetting</p>
-             
                     <div class="project-links">
                         <a href="https://github.com/Mondeev/IPnetSolver/" target="_blank">Source</a>
-                    </div>  
+                    </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="images/OpenPortHunter.PNG" alt="OpenPortHunter Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@openporthunter:~$</span>
                     </div>
-
+                    <img src="images/OpenPortHunter.PNG" alt="OpenPortHunter Screenshot">
                     <h3>OpenPortHunter v1.2.0</h3>
                     <p>A tool written in Python that identifies open ports and provides WHOIS information for the target before scanning.</p>
                     <p class="tech">Python | TCP/IP | Protocols | Ports</p>
@@ -423,90 +394,50 @@
                 </div>
 
                 <div class="project-card">
-                    <img src="images/WebDirsCovery.PNG" alt="WebDirsCovery Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@webdirscovery:~$</span>
                     </div>
-
+                    <img src="images/WebDirsCovery.PNG" alt="WebDirsCovery Screenshot">
                     <h3>WebDirsCovery v1.0.0</h3>
                     <p>A tool written in Python that automates the process of finding hidden directories on websites.</p>
                     <p class="tech">Python | HTTP/HTTPS</p>
                     <div class="project-links">
                         <a href="https://github.com/Mondeev/WebDirsCovery" target="_blank">Source</a>
                     </div>
-
                 </div>
 
                 <div class="project-card">
-                    <img src="images/AutoWebRecon.PNG" alt="AutoWebRecon Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@autowebrecon:~$</span>
                     </div>
-
+                    <img src="images/AutoWebRecon.PNG" alt="AutoWebRecon Screenshot">
                     <h3>AutoWebRecon v1.0.0</h3>
                     <p>A tool written in Bash script for automating website reconnaissance using built-in Kali tools.</p>
                     <p class="tech">Bash | Kali Linux | Regex | Reconnaissance</p>
                     <div class="project-links">
                         <a href="https://github.com/Mondeev/AutoWebRecon" target="_blank">Source</a>
                     </div>
-                </div> 
+                </div>
 
                 <div class="project-card">
-                    <img src="images/blackBackground.PNG" alt="HTTPayload Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@httpayload:~$</span>
                     </div>
-
+                    <img src="images/blackBackground.PNG" alt="HTTPayload Screenshot">
                     <h3>HTTPayload</h3>
                     <p>Written in Python that generates stealthy payloads for web attacks using encoding techniques and request obfuscation.</p>
                     <p class="tech">Python | HTTP/HTTPS | OWASP Top 10</p>
                     <div class="project-links">
-                        <a href="#" onclick="alert('Coming Soon!')" style="background-color: orange;">Coming Soon</a>
+                        <a href="#" class="project-coming-link" onclick="alert('Coming Soon!')">Coming Soon</a>
                     </div>
                 </div>
             </div>
@@ -518,27 +449,14 @@
             <div class="skills-section">
             
                 <div class="project-card">
-                    <img src="images/WebPortfolio.png" alt="WebPortfolio Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@portfolio:~$</span>
                     </div>
-
-                    <h3>My Website Portfolio v1.2.5</h3>
+                    <img src="images/WebPortfolio.png" alt="WebPortfolio Screenshot">
+                    <h3>My Website Portfolio v1.3.0</h3>
                     <p>This website itself! I built from scratch to share my journey, skills, and projects.</p>
                     <p class="tech">HTML | CSS | JavaScript</p>
                     <div class="project-links">
@@ -548,26 +466,13 @@
                 </div>
 
                 <div class="project-card">
-                    <img src="images/Reycademy.PNG" alt="Reycademy Channel Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@reycademy:~$</span>
                     </div>
-
+                    <img src="images/Reycademy.PNG" alt="Reycademy Channel Screenshot">
                     <h3>Reycademy Website v0.4.0</h3>
                     <p>A free cybersecurity education site with structured Tagalog videos and hands-on training.</p>
                     <p class="tech">HTML | CSS | JavaScript | Express | PostgreSQL</p>
@@ -578,26 +483,13 @@
                 </div>
 
                 <div class="project-card">
-                    <img src="images/ReycademyChannel.png" alt="Reycademy Channel Screenshot">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@reycademy:~$</span>
                     </div>
-
+                    <img src="images/ReycademyChannel.png" alt="Reycademy Channel Screenshot">
                     <h3>Reycademy Channel</h3>
                     <p>A channel I created to share and teach cybersecurity in Tagalog through videos.</p>
                     <p class="tech">Teaching | Presenting | Content Creation</p>
@@ -607,26 +499,13 @@
                 </div>
 
                 <div class="project-card">
-                    <img src="images/PhishNetAI.png" alt="PhishNet AI Placeholder">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@phishnetai:~$</span>
                     </div>
-
+                    <img src="images/PhishNetAI.png" alt="PhishNet AI Placeholder">
                     <h3>PhishNet AI</h3>
                     <p>A phishing website detection and awareness platform with an AI assistant, guided training, hands-on labs, and progress tracking</p>
                     <p class="tech">HTML | CSS | JavaScript | Python | Express | PostgreSQL</p>
@@ -637,26 +516,13 @@
                 </div>
 
                 <div class="project-card">
-                    <img src="images/Surisec_AI.PNG" alt="EnrollSched Placeholder">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@surisec:~$</span>
                     </div>
-
+                    <img src="images/Surisec_AI.PNG" alt="EnrollSched Placeholder">
                     <h3>Surisec AI</h3>
                     <p>A beginner-friendly website security scanner that helps student developers identify security issues, understand why they matter, and learn how to fix them with AI.</p>
                     <p class="tech">HTML | CSS | JavaScript | Express | MySQL</p>
@@ -675,55 +541,29 @@
             <div class="skills-section">
 
                 <div class="project-card">
-                    <img src="images/Probinsya.png" alt="Probinsya Horror Game Placeholder">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@probinsya:~$</span>
                     </div>
-
+                    <img src="images/Probinsya.png" alt="Probinsya Horror Game Placeholder">
                     <h3>Probinsya</h3>
                     <p>A Filipino indie folk horror game where a simple visit to a grandmother's province slowly turns into a terrifying mystery filled with family secrets, forgotten tragedies, and horrors hidden within Filipino folklore.</p>
                     <p class="tech">Godot | Game Development</p>
                     <div class="project-links">
-                        <a href="#" onclick="alert('Coming Soon!')" style="background-color: orange;">Coming Soon</a>
+                        <a href="#" class="project-coming-link" onclick="alert('Coming Soon!')">Coming Soon</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="images/ReyBOT.png" alt="Probinsya Horror Game Placeholder">
-
-                    <div class="design-container">
-                        <div class="circle-container">
-                            <div class="circle-1"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                        </div>
-
-                        <span class="fake-terminal">
-                            rey@projects:~$
-                        </span>
-                        
-                        <div class="fake-controls">
-                            <div>—</div>
-                            <div>☐</div>
-                            <div>X</div>
-                        </div>
+                    <div class="project-terminal-badge">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                        <span class="prompt">rey@reybot:~$</span>
                     </div>
-
+                    <img src="images/ReyBOT.png" alt="Probinsya Horror Game Placeholder">
                     <h3>ReyBOT</h3>
                     <p>A custom Minecraft bot built as a sidekick for singleplayer to follow, protect, help, and make the world feel a little less lonely.</p>
                     <p class="tech">JavaScript</p>
@@ -743,16 +583,18 @@
                     <div id="terminal-controls">
                         <div class="design-container" style="border: none; margin: 0;">
                                 <div class="circle-container">
-                                    <img src="images/terminal.png" width="35px" height="25px" style="border: 2px solid rgb(57, 167, 211);">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
                                 </div>
 
                                 <span id="prompt">
                                     /reymux:~$
                                 </span>
-                                
+
                                 <div class="fake-controls">
                                     <div>—</div>
-                                    <div>☐</div>   
+                                    <div>☐</div>
                                     <div>X</div>
                                 </div>
                         </div>
@@ -795,32 +637,37 @@
 
     <!-- Footer -->
     <footer>
-        <div id="profile-links" style="margin-bottom: 2em;">   
-                <a href="https://www.linkedin.com/in/reymond-joaquin-3b5954308" target="_blank">
-                    <i class="fab fa-linkedin icon-links" style="color: rgb(18, 99, 131);"> <span class="text-link">Reymond Joaquin</span></i>
+        <p id="footer-tagline">Let's Connect</p>
+                <div id="profile-links">
+                    <a href="https://www.linkedin.com/in/reymond-joaquin-3b5954308" target="_blank">
+                        <i class="fab fa-linkedin icon-links"></i>
+                    </a>
+
+                    <a href="https://web.facebook.com/reymondjoaquin26" target="_blank">
+                    <i class="fab fa-facebook icon-links"></i>
                 </a>
 
-                <a href="https://mail.google.com/mail/u/0/#search/in%3Asent+raymondjoaquin50%40gmail.com" target="_blank">
-                    <i class="fas fa-envelope icon-links" style="color: rgb(18, 99, 131);"> <span class="text-link">raymondjoaquin50@gmail.com</span></i>
-                </a>
+                    <a href="https://www.youtube.com/@reycademy" target="_blank">
+                        <i class="fab fa-youtube icon-links"></i>
+                    </a>
 
-                <a href="https://www.youtube.com/@reycademy" target="_blank">
-                    <i class="fab fa-youtube icon-links" style="color: rgb(18, 99, 131);"> <span class="text-link">Reycademy</span></i>
-                </a>    
-
-                <a href="https://github.com/R3ym0nd0" target="_blank">
-                    <i class="fab fa-github icon-links" style="color:rgb(18, 99, 131);"> <span class="text-link">R3ym0nd0</span></i>
-                </a>
-        </div>
+                    <a href="https://github.com/R3ym0nd0" target="_blank">
+                        <i class="fab fa-github icon-links"></i>
+                    </a>
+                </div>
 
         <div id="footer-info">
-            <p>&copy 2025 Reymond Joaquin. All rights reserved.</p>
-            <p>v1.2.5 | Built with HTML, CSS, & JavaScript</p>
+            <p>&copy <span id="copyright-year">2025</span> Reymond Joaquin. All rights reserved.</p>
+            <div class="footer-divider"></div>
+            <p>v1.3.0 | Built with HTML, CSS, & JavaScript</p>
             <p>Design by Reymond Joaquin | Icons by <a href="https://fontawesome.com" target="_blank">FontAwesome</a></p>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script>
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+</script>
+<script src="js/script.js"></script>
     <script src="js/reymux.js"></script>
 </body>
 </html>

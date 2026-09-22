@@ -3,16 +3,19 @@ const mobileNavbar = document.querySelector("#nav-bar");
 const lines = document.querySelectorAll(".line");
 
 if (humbergerIcon && mobileNavbar) {
-    humbergerIcon.addEventListener("click", (event) => {
-        if (mobileNavbar.classList.contains("show")) {
-            event.target.style.color = "white";
+    humbergerIcon.addEventListener("click", () => {
+        humbergerIcon.classList.toggle("active");
+        mobileNavbar.classList.toggle("show");
+        lines.forEach((line) => { line.classList.toggle("show"); });
+    });
+
+    // Auto-close menu when a nav link is clicked
+    document.querySelectorAll(".nav-section").forEach((link) => {
+        link.addEventListener("click", () => {
+            humbergerIcon.classList.remove("active");
             mobileNavbar.classList.remove("show");
             lines.forEach((line) => { line.classList.remove("show"); });
-        } else {
-            event.target.style.color = "rgb(57, 167, 211)";
-            mobileNavbar.classList.add("show");
-            lines.forEach((line) => { line.classList.add("show"); });
-        }
+        });
     });
 }
 
