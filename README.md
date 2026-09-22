@@ -12,7 +12,7 @@ I originally started building websites just to understand how things work under 
 
 ## Screenshot
 
-<img width="1345" height="725" alt="WebPortfolio" src="https://github.com/user-attachments/assets/ce7ea962-7ea0-42fe-90e8-f5019bf25a11" />
+<img width="1344" height="631" alt="WebPortfolio" src="https://github.com/user-attachments/assets/ba210fb7-5ea2-4d3e-a575-fc09a0968b60" />
 
 ---
 
